@@ -1,0 +1,19 @@
+.panel-container {
+    display: flex;
+    margin-bottom: 20px;
+    .side-panel {
+        background-color: rgba(51, 51, 51, 0.6);
+        border: 2px solid rgba(0, 0, 0, 0.3);
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 40%;
+        padding: 16px;
+        line-height: 1.25;
+    }
+}
+.panel-left {
+    flex-direction: row;
+}
+.panel-right {
+    flex-direction: row-reverse;
+}
